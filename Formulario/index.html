@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ACA II</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="code.js"></script>
+  </head>
+
+  <body>
+    <h1>Formularios</h1>
+    <form method="get" action="/action_page.php">
+      <label for="nombres">Nombres:</label><input type="text"  placeholder="Nombres" id="nombres" name="nombres" pattern="[a-z]{1,15}" autofocus ><br><br>
+      <label for="apellidos">Apellidos:</label>
+      <input type="text"  placeholder="Apellidos" id="apellidos" name="apellidos" pattern="[a-z]{1,15}"><br><br>
+      <label for="correo">Correo:</label>
+      <input type="text"  placeholder="Correo electronico" id="correo" name="correo" pattern="[a-z]{1,15}" title="El nombre de usuario solo debe contener letras minúsculas. p.ej. john"> <br><br>
+      <label for="url">URL:</label>
+      <input type="text " placeholder="Escribir el URL de la pagina" id="url" name="url" pattern="[a-z]{1,15}"><br><br>
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha"><br><br>
+      <label for="tiempo">Tiempo:</label>
+      <input type="time" id="tiempo" name="tiempo"><br><br>
+      <label for="fh">Fecha-hora:</label>
+      <input type="datetime-local" id="fh" name="fh"><br><br>
+      <label for="mes">Mes:</label>
+      <input type="month" id="mes" name="mes"><br><br>
+      <label for="semana">Semana:</label>
+      <input type="week" id="semana" name="semana"><br><br>
+      <p>Numero: <input type="number" name="Numero" range="rango" max="10" min="-1" placeholder="Digitar numeros de -1 a 10" required></p>
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" name="telefono" placeholder="Digite un numero de telefono" title="Un número de teléfono válido consta de 7 digitos en adelante hasta 18 digitos." required><br><br>
+      <label for="num">Busqueda:</label>
+      <input type="search" id="busq" name="busq"><br><br>
+      <p>Color: <input type="color" name="colorElegido" required></p>
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

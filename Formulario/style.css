@@ -1,0 +1,17 @@
+ body {
+    background-color: #c7c5c5;
+    margin: 25px;
+  }
+  
+  form {
+    max-width: 300px;
+    margin-top: 60px;
+  }
+
+  input {
+      width: 70%;
+      padding: 3px;
+      
+  }
+
+
